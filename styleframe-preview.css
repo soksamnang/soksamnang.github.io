@@ -1,0 +1,35 @@
+#content-box{
+    width: 100%;
+    border: 1px solid black;
+}
+#main-box{
+    float: left;
+    width: 40%;
+    border: none;
+    box-sizing: border-box;
+    
+}
+#side-box{
+    float: right;
+    width: 60%;
+    box-sizing: border-box;
+    border: none;
+    text-align: left;
+}
+div{
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+@media(max-width:800px){
+    div{
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;}
+}

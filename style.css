@@ -1,0 +1,72 @@
+body{
+    background-image: url(1.jpg);
+    text-align: center;
+}
+header{
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+nav{
+    float: right;
+    margin-right: 55px;
+    margin-bottom: 10px
+}
+input{
+    margin-top: 110px;
+    width: 65%;
+    height: 40px;
+}
+iframe{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+    height: 400px;  
+}
+footer{
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+blog1{
+    color: white;
+    margin-left: 75px;
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+}
+blog2{
+    color: white;
+    margin-right: 75px;
+    width: 40%;
+    float: right;
+    box-sizing: border-box;
+}
+#box{
+    width: 80%;
+    background-color: aqua;
+}
+@media(max-width:800px){
+    iframe{
+        height: 300px;
+    }
+    blog1{
+        width: 80%;
+        float: none;
+        font-size: 12px;
+    }
+    blog2{
+        width: 80%;
+        float: none;
+        font-size: 12px;
+    }
+}
+button{
+    height: 40px;
+    
+}
